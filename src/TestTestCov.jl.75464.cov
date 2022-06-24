@@ -1,0 +1,14 @@
+        - module TestTestCov
+        - 
+        4 function myall(f, x)
+        8     for elt in x
+       12         if !f(elt)
+        0             return false
+        -         end
+       20     end
+        4     return true
+        - end
+        - 
+        - export myall
+        - 
+        - end # module
